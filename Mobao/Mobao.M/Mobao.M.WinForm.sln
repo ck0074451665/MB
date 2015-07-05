@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobao.M.WinForm", "Mobao.M.WinForm\Mobao.M.WinForm.csproj", "{0A6369D7-B314-4CBA-8325-0B269CB17EA0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobao.M.Interface", "Mobao.M.Interface\Mobao.M.Interface.csproj", "{5EA64E39-1A7F-4137-B146-BF56FD909343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobao.M.WinForm", "Mobao.M.WinForm\Mobao.M.WinForm.csproj", "{02178570-C013-43EE-8B21-508D96FC8F67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0A6369D7-B314-4CBA-8325-0B269CB17EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A6369D7-B314-4CBA-8325-0B269CB17EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A6369D7-B314-4CBA-8325-0B269CB17EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A6369D7-B314-4CBA-8325-0B269CB17EA0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5EA64E39-1A7F-4137-B146-BF56FD909343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5EA64E39-1A7F-4137-B146-BF56FD909343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EA64E39-1A7F-4137-B146-BF56FD909343}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EA64E39-1A7F-4137-B146-BF56FD909343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02178570-C013-43EE-8B21-508D96FC8F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02178570-C013-43EE-8B21-508D96FC8F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02178570-C013-43EE-8B21-508D96FC8F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02178570-C013-43EE-8B21-508D96FC8F67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
