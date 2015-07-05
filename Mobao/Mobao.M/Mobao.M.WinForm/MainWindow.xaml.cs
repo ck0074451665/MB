@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Mobao.M.Interface.Interface;
+using Mobao.M.Interface.Moudle;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,15 @@ namespace Mobao.M.WinForm
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            System.ServiceModel.ChannelFactory<IService1> channel = new System.ServiceModel.ChannelFactory<IService1>
+            ("serviceEndpoint");
+            channel.Endpoint.EndpointBehaviors.Add(new EndpointBehavior());
+          IService1 service=   channel.CreateChannel();
+          MessageBox.Show(string.Format("{0}", service.GetData(6)));
         }
     }
 }

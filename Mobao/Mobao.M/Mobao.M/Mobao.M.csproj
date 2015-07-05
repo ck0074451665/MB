@@ -40,6 +40,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mobao.M.Domain\Mobao.M.Domain.csproj">
+      <Project>{5b585753-e9cc-48a9-9c14-31dd2c1eb57f}</Project>
+      <Name>Mobao.M.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mobao.M.Interface\Mobao.M.Interface.csproj">
+      <Project>{5ea64e39-1a7f-4137-b146-bf56fd909343}</Project>
+      <Name>Mobao.M.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mobao.M.NHibernate\Mobao.M.NHibernate.csproj">
+      <Project>{568bc76d-1a7e-440b-b714-0907592d77d7}</Project>
+      <Name>Mobao.M.NHibernate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mobao.M.Utility\Mobao.M.Utility.csproj">
+      <Project>{1dafde6c-5ca7-4403-9801-d5e9633e8a06}</Project>
+      <Name>Mobao.M.Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

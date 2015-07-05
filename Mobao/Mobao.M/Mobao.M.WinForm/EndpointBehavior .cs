@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel.Dispatcher;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,22 +11,28 @@ namespace Mobao.M.WinForm
     {
         public void AddBindingParameters(System.ServiceModel.Description.ServiceEndpoint endpoint, System.ServiceModel.Channels.BindingParameterCollection bindingParameters)
         {
-            throw new NotImplementedException();
+            return;
         }
 
         public void ApplyClientBehavior(System.ServiceModel.Description.ServiceEndpoint endpoint, System.ServiceModel.Dispatcher.ClientRuntime clientRuntime)
         {
-            throw new NotImplementedException();
+            clientRuntime.MessageInspectors.Add(new ClientMessageInspector());
+            foreach (ClientOperation op in clientRuntime.Operations)
+                op.ParameterInspectors.Add(new ParameterInspector());
+           
         }
 
         public void ApplyDispatchBehavior(System.ServiceModel.Description.ServiceEndpoint endpoint, System.ServiceModel.Dispatcher.EndpointDispatcher endpointDispatcher)
         {
-            throw new NotImplementedException();
+            //endpointDispatcher.DispatchRuntime.MessageInspectors.Add(new ClientMessageInspector());
+            //foreach (DispatchOperation op in endpointDispatcher.DispatchRuntime.Operations)
+            //    op.ParameterInspectors.Add(new ParameterInspector());
+           
         }
 
         public void Validate(System.ServiceModel.Description.ServiceEndpoint endpoint)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
