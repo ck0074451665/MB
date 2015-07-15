@@ -15,7 +15,7 @@ namespace Mobao.M.WinForm
 
         public object BeforeCall(string operationName, object[] inputs)
         {
-            return null;
+            return "132465";
         }
     }
 }
