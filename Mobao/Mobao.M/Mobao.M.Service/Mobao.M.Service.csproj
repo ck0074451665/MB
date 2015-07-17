@@ -110,6 +110,9 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "$(TargetDir)Template" mkd "$(TargetDir)Template" xcopy "$(SolutionDir)NursingRec\NursingRecord\FormMain\bin\Debug\Template" "$(TargetDir)Template" /s/e</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
