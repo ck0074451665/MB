@@ -15,12 +15,12 @@ namespace Mobao.M.Service
 
         public void ApplyClientBehavior(ServiceEndpoint endpoint, System.ServiceModel.Dispatcher.ClientRuntime clientRuntime)
         {
-
+           //clientRuntime.ClientMessageInspectors.Add(new MessageInspector);
         }
 
         public void ApplyDispatchBehavior(ServiceEndpoint endpoint, System.ServiceModel.Dispatcher.EndpointDispatcher endpointDispatcher)
         {
-
+            endpointDispatcher.DispatchRuntime.MessageInspectors.Add(new MessageInspector());
         }
 
         public void Validate(ServiceEndpoint endpoint)

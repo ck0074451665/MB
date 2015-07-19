@@ -1,4 +1,4 @@
-﻿using Mobao.M.Interface.Interface;
+﻿using Mobao.M.Interface;
 using Mobao.M.Interface.Moudle;
 using System;
 using System.Collections.Generic;
@@ -34,6 +34,6 @@ namespace Mobao.M.WinForm
             channel.Endpoint.EndpointBehaviors.Add(new EndpointBehavior());
           IService1 service=   channel.CreateChannel();
           MessageBox.Show(string.Format("{0}", service.GetData(6)));
-        }
+        }   
     }
 }

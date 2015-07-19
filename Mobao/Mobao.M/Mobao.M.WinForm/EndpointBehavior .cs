@@ -32,7 +32,7 @@ namespace Mobao.M.WinForm
 
         public void Validate(System.ServiceModel.Description.ServiceEndpoint endpoint)
         {
-            
+            //endpoint.Address.Identity.IdentityClaim
         }
     }
 }
