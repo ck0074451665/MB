@@ -1,6 +1,6 @@
-﻿using Mobao.M.Data;
-using Mobao.M.Data.Domain;
-using Mobao.M.Data.Repository;
+﻿using Mobao.M.Domain;
+using Mobao.M.Domain;
+using Mobao.M.Domain.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;

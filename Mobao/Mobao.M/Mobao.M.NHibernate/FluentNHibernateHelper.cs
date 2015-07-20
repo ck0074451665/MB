@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using NHibernate;
 using FluentNHibernate;
 using NHibernate.Cfg;
-namespace Wolfy.Data
+namespace Mobao.M.NHibernate
 {
     /// <summary>
     /// Nhibernate辅助类
@@ -49,8 +49,9 @@ namespace Wolfy.Data
                 {
                     if (_sessionFactory == null)
                     {
+                        var cfg = new Configuration();
                         //配置ISessionFactory
-                        _sessionFactory = FluentNHibernate.Cfg.Fluently.Configure(new NHibernate.Cfg.Configuration().AddFile(AppDomain.CurrentDomain.BaseDirectory + "Oracle.cfg.xml"))
+                        _sessionFactory = FluentNHibernate.Cfg.Fluently.Configure(cfg)
                             //映射程序集
                       .Mappings(m => m.FluentMappings
                           .AddFromAssembly(System.Reflection.Assembly.Load("Wolfy.Domain"))

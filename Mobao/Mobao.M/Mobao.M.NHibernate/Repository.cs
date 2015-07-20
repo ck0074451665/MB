@@ -1,6 +1,6 @@
 ﻿
-using Mobao.M.Data;
 using Mobao.M.Domain;
+using NHibernate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,11 +11,20 @@ namespace Mobao.M.NHibernate
 {
     public class Repository<T> : IRepository<T> where T : class,new()
     {
+        protected ISessionFactory _sessionFactory;
+
+        public Repository()
+        {
+            _sessionFactory = FluentNHibernateHelper.GetSessionFactory();
+        }
 
         public void Add(T t)
         {
-            throw new NotImplementedException();
-        }
+            using (ISession session = _sessionFactory.OpenSession())
+            {
+                session.Save(t);
+            }
+        } 
 
         public void Update(T t)
         {

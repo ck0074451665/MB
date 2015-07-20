@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mobao.M.Data.Domain
+namespace Mobao.M.Domain
 {
     public class TestOne
     {

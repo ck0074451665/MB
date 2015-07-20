@@ -1,4 +1,4 @@
-﻿using Mobao.M.Data.Domain;
+﻿using Mobao.M.Domain;
 using Mobao.M.Interface;
 using Mobao.M.Interface.Moudle;
 using Mobao.M.NHibernate;
