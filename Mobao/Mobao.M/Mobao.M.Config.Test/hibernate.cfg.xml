@@ -9,7 +9,7 @@ for your own use before compile tests in VisualStudio.
   <session-factory name="NHibernate.Test">
     <property name="connection.driver_class">NHibernate.Driver.OracleClientDriver</property>
     <property name="connection.connection_string">
-      User ID=ts_doc;Password=mobaohls;Data Source=223.223.180.178:1521;Initial Catalog=TESTHLS;
+      Data Source=TESTHLS;User ID=ts_doc;Password=mobaohls;
     </property>
     <property name="show_sql">false</property>
     <property name="dialect">NHibernate.Dialect.OracleDialect</property>

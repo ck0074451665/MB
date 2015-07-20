@@ -8,9 +8,10 @@ namespace Mobao.M.Domain
 {
     public class TestOne
     {
-        public string UserName { get; set; }
+        public virtual string PkId { get; set; }
+        public virtual string UserName { get; set; }
 
-        public List<SubTestOne> SubTest { get; set; }
+        public virtual List<SubTestOne> SubTest { get; set; }
     }
 
     public class SubTestOne

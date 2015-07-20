@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\MobaoTest.nunit" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-07-20" time="17:00:52">
-  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\bin\Debug" machine-name="DUCHENYANG-PC" user="wgl" user-domain="duchenyang-PC" />
+<test-results name="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\MobaoTest.nunit" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-07-20" time="17:19:09">
+  <environment nunit-version="2.6.4.14350" clr-version="4.0.30319.18444" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\bin\Debug" machine-name="DUCHENYANG-PC" user="wgl" user-domain="duchenyang-PC" />
   <culture-info current-culture="zh-CN" current-uiculture="zh-CN" />
-  <test-suite type="Project" name="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\MobaoTest.nunit" executed="True" result="Failure" success="False" time="0.601" asserts="0">
+  <test-suite type="Project" name="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\MobaoTest.nunit" executed="True" result="Failure" success="False" time="2.299" asserts="0">
     <results>
-      <test-suite type="Assembly" name="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\bin\Debug\Mobao.M.Config.Test.dll" executed="True" result="Failure" success="False" time="0.594" asserts="0">
+      <test-suite type="Assembly" name="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\bin\Debug\Mobao.M.Config.Test.dll" executed="True" result="Failure" success="False" time="2.299" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Mobao" executed="True" result="Failure" success="False" time="0.594" asserts="0">
+          <test-suite type="Namespace" name="Mobao" executed="True" result="Failure" success="False" time="2.299" asserts="0">
             <results>
-              <test-suite type="Namespace" name="M" executed="True" result="Failure" success="False" time="0.594" asserts="0">
+              <test-suite type="Namespace" name="M" executed="True" result="Failure" success="False" time="2.298" asserts="0">
                 <results>
-                  <test-suite type="Namespace" name="Config" executed="True" result="Failure" success="False" time="0.594" asserts="0">
+                  <test-suite type="Namespace" name="Config" executed="True" result="Failure" success="False" time="2.298" asserts="0">
                     <results>
-                      <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="0.593" asserts="0">
+                      <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="2.298" asserts="0">
                         <results>
-                          <test-suite type="TestFixture" name="TestNhibernate" executed="True" result="Failure" success="False" time="0.591" asserts="0">
+                          <test-suite type="TestFixture" name="TestNhibernate" executed="True" result="Failure" success="False" time="2.297" asserts="0">
                             <results>
-                              <test-case name="Mobao.M.Config.Test.TestNhibernate.TestConnection" executed="True" result="Error" success="False" time="0.585" asserts="0">
+                              <test-case name="Mobao.M.Config.Test.TestNhibernate.TestConnection" executed="True" result="Error" success="False" time="2.296" asserts="0">
                                 <failure>
                                   <message><![CDATA[FluentNHibernate.Cfg.FluentConfigurationException : An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
 
@@ -27,24 +27,31 @@
 
   * Database was not configured through Database method.
 
-  ----> System.IO.FileNotFoundException : 未能加载文件或程序集“Wolfy.Domain”或它的某一个依赖项。系统找不到指定的文件。]]></message>
-                                  <stack-trace><![CDATA[在 FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory() 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Cfg\FluentConfiguration.cs:行号 233
+  ----> FluentNHibernate.Visitors.ValidationException : The entity 'TestOne' doesn't have an Id mapped. Use the Id method to map your identity property. For example: Id(x => x.Id).]]></message>
+                                  <stack-trace><![CDATA[在 FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory() 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Cfg\FluentConfiguration.cs:行号 235
 在 Mobao.M.NHibernate.FluentNHibernateHelper.GetSessionFactory() 位置 e:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.NHibernate\FluentNHibernateHelper.cs:行号 54
 在 Mobao.M.NHibernate.Repository`1..ctor() 位置 e:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.NHibernate\Repository.cs:行号 18
 在 Mobao.M.NHibernate.TestOneRepository..ctor()
 在 Mobao.M.Config.Test.TestNhibernate.TestConnection() 位置 e:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\TestNhibernate.cs:行号 16
 --FluentConfigurationException
-在 FluentNHibernate.Cfg.FluentConfiguration.BuildConfiguration() 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Cfg\FluentConfiguration.cs:行号 262
+在 FluentNHibernate.Cfg.FluentConfiguration.BuildConfiguration() 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Cfg\FluentConfiguration.cs:行号 264
 在 FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory() 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Cfg\FluentConfiguration.cs:行号 230
---FileNotFoundException
-在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
-在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
-在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
-在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
-在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
-在 System.Reflection.Assembly.Load(String assemblyString)
-在 Mobao.M.NHibernate.FluentNHibernateHelper.<GetSessionFactory>b__1(MappingConfiguration m) 位置 e:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.NHibernate\FluentNHibernateHelper.cs:行号 56
-在 FluentNHibernate.Cfg.FluentConfiguration.BuildConfiguration() 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Cfg\FluentConfiguration.cs:行号 250
+--ValidationException
+在 FluentNHibernate.Visitors.ValidationVisitor.ProcessClass(ClassMapping classMapping) 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Visitors\ValidationVisitor.cs:行号 20
+在 FluentNHibernate.MappingModel.ClassBased.ClassMapping.AcceptVisitor(IMappingModelVisitor visitor) 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\MappingModel\ClassBased\ClassMapping.cs:行号 71
+在 FluentNHibernate.Visitors.DefaultMappingModelVisitor.Visit(ClassMapping classMapping) 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Visitors\DefaultMappingModelVisitor.cs:行号 89
+在 FluentNHibernate.MappingModel.HibernateMapping.AcceptVisitor(IMappingModelVisitor visitor) 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\MappingModel\HibernateMapping.cs:行号 37
+在 FluentNHibernate.Visitors.DefaultMappingModelVisitor.<Visit>b__0(HibernateMapping x) 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Visitors\DefaultMappingModelVisitor.cs:行号 79
+在 FluentNHibernate.Utils.CollectionExtensions.Each[T](IEnumerable`1 enumerable, Action`1 each) 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Utils\CollectionExtensions.cs:行号 15
+在 FluentNHibernate.Visitors.DefaultMappingModelVisitor.Visit(IEnumerable`1 mappings) 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Visitors\DefaultMappingModelVisitor.cs:行号 79
+在 FluentNHibernate.PersistenceModel.ApplyVisitors(IEnumerable`1 mappings) 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\PersistenceModel.cs:行号 214
+在 FluentNHibernate.PersistenceModel.BuildMappings() 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\PersistenceModel.cs:行号 168
+在 FluentNHibernate.PersistenceModel.EnsureMappingsBuilt() 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\PersistenceModel.cs:行号 221
+在 FluentNHibernate.PersistenceModel.WriteMappingsTo(Func`2 writerBuilder, Boolean shouldDispose) 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\PersistenceModel.cs:行号 252
+在 FluentNHibernate.PersistenceModel.WriteMappingsTo(String folder) 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\PersistenceModel.cs:行号 242
+在 FluentNHibernate.Cfg.FluentMappingsContainer.Apply(PersistenceModel model) 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Cfg\FluentMappingsContainer.cs:行号 133
+在 FluentNHibernate.Cfg.MappingConfiguration.Apply(Configuration cfg) 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Cfg\MappingConfiguration.cs:行号 84
+在 FluentNHibernate.Cfg.FluentConfiguration.BuildConfiguration() 位置 c:\work\coding\fluentNhibernate\src\FluentNHibernate\Cfg\FluentConfiguration.cs:行号 252
 ]]></stack-trace>
                                 </failure>
                               </test-case>

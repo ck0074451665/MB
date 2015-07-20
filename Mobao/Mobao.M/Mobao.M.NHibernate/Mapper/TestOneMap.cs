@@ -14,10 +14,10 @@ namespace Mobao.M.NHibernate.Mapper
         public TestOneMap()
         {
             this.LazyLoad();
-            Table("");
-            Id(i => i.ToString());
-            Map(m => m.ToString());
-            HasMany<SubTestOne>(h => h.SubTest).Table("").KeyColumn("").Fetch.Select();
+            Table("NURSING_DOC_DATA_REF");
+            Id(i => i.PkId).Column("DOC_ID");
+            Map(m => m.UserName).Column("PATIENT_ID");
+            //  HasMany<SubTestOne>(h => h.SubTest).Table("").KeyColumn("").Fetch.Select();
 
         }
     }

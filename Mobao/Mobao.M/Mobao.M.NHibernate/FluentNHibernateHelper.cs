@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using NHibernate;
 using FluentNHibernate;
 using NHibernate.Cfg;
+using FluentNHibernate.Cfg;
 namespace Mobao.M.NHibernate
 {
     /// <summary>
@@ -37,10 +38,11 @@ namespace Mobao.M.NHibernate
         //          //连接字符串
         //.ConnectionString(
         //     c => c.FromConnectionStringWithKey("")
-        //    )
+        //    )cfg.Configure(AppDomain.CurrentDomain.BaseDirectory + "hibernate.cfg.xml")
         //          //是否显示sql
-        //    .ShowSql()
-        //    )
+        //    .ShowSql()  cfg.Configure(AppDomain.CurrentDomain.BaseDirectory + "hibernate.cfg.xml")
+        //    )c => c.Server("TESTHLS").Username("ts_doc").Password("mobaohls")FluentNHibernate.Cfg.Db.OracleClientConfiguration.Oracle10.ConnectionString("MOBAOHLS")
+        //.Database(FluentNHibernate.Cfg.Db.OracleClientConfiguration.Oracle10.ConnectionString("MOBAOHLS"))
         public static ISessionFactory GetSessionFactory()
         {
             if (_sessionFactory == null)
@@ -51,10 +53,11 @@ namespace Mobao.M.NHibernate
                     {
                         var cfg = new Configuration();
                         //配置ISessionFactory
-                        _sessionFactory = FluentNHibernate.Cfg.Fluently.Configure(cfg)
+                        _sessionFactory = Fluently
+                            .Configure(cfg.Configure(AppDomain.CurrentDomain.BaseDirectory + "hibernate.cfg.xml"))
                             //映射程序集
                       .Mappings(m => m.FluentMappings
-                          .AddFromAssembly(System.Reflection.Assembly.Load("Wolfy.Domain"))
+                          .AddFromAssembly(System.Reflection.Assembly.GetExecutingAssembly())
                           .ExportTo("c:\\"))
                       .BuildSessionFactory();
 
