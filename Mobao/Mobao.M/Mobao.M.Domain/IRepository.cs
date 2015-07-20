@@ -14,6 +14,6 @@ namespace Mobao.M.Domain
 
         void Delete(object id);
 
-
+        IQueryable<T> GetAll();
     }
 }

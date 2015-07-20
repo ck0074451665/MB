@@ -18,7 +18,7 @@ namespace Mobao.M.NHibernate.Mapper
             Id(i => i.PkId).Column("DOC_ID");
             Map(m => m.UserName).Column("PATIENT_ID");
             //  HasMany<SubTestOne>(h => h.SubTest).Table("").KeyColumn("").Fetch.Select();
-
+            
         }
     }
 }

@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NHibernate.Linq;
+using NHibernate.Linq.Expressions;
 
 namespace Mobao.M.NHibernate
 {
@@ -24,7 +26,13 @@ namespace Mobao.M.NHibernate
             {
                 session.Save(t);
             }
-        } 
+        }
+
+        public IQueryable<T> GetAll()
+        {
+            ISession session = _sessionFactory.OpenSession();
+            return session.Query<T>();
+        }
 
         public void Update(T t)
         {

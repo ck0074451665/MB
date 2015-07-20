@@ -12,7 +12,7 @@ for your own use before compile tests in VisualStudio.
       Data Source=TESTHLS;User ID=ts_doc;Password=mobaohls;
     </property>
     <property name="show_sql">false</property>
-    <property name="dialect">NHibernate.Dialect.OracleDialect</property>
+    <property name="dialect">NHibernate.Dialect.Oracle10gDialect</property>
     <property name="query.substitutions">true 1, false 0, yes 'Y', no 'N'</property>
   </session-factory>
 </hibernate-configuration>
