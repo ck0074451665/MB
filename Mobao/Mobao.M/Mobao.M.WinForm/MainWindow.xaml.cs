@@ -1,4 +1,5 @@
-﻿using Mobao.M.Interface.Interface;
+﻿using Mobao.M.Interface;
+using Mobao.M.Interface.Interface;
 using Mobao.M.Interface.Moudle;
 using System;
 using System.Collections.Generic;

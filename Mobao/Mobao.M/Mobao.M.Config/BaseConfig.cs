@@ -10,31 +10,20 @@ namespace Mobao.M.Utility
 {
     public abstract class BaseConfig<T> where T : class
     {
-        private string configPath = string.Empty;
-
-        public static T Instance
-        {
-            get
-            {
+        protected string configPath = string.Empty;
 
 
-            }
-            private set
-            {
-                Instance = value;
-            }
-        }
-
-        private T GetCache(string key)
+        protected T GetCache(string key)
         {
             Cache cache = new Cache();
             return cache.Get(key) as T;
         }
 
-        private void SetCache(string key, T t)
+        protected void SetCache(string key, T t)
         {
             Cache cache = new Cache();
-            return cache.Add(key, t, new CacheDependency(configPath),DateTime.Now.AddMinutes(30),new TimeSpan()) as T;
+            cache.Add(key, t, new CacheDependency(configPath),
+                DateTime.Now.AddMinutes(30), new TimeSpan(5), CacheItemPriority.Default, null);
         }
 
         protected BaseConfig(string subPath)
@@ -42,7 +31,19 @@ namespace Mobao.M.Utility
             configPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory + "Config", subPath);
         }
 
-        protected void GetStruct(string subPath)
+
+        public T GetDict()
+        {
+            T obj = GetCache(configPath);
+            if (obj == null)
+            {
+                obj = GetStruct(configPath);
+                SetCache(configPath, obj);
+            }
+            return obj;
+        }
+
+        protected T GetStruct(string subPath)
         {
             if (!File.Exists(configPath))
             {
@@ -51,7 +52,7 @@ namespace Mobao.M.Utility
             XDocument xDoc = XDocument.Load(configPath);
             XElement xNode = xDoc.Element("Item");
             var t = InstanceStruct(xNode);
-            Instance = t;
+            return t;
         }
 
         protected abstract T InstanceStruct(XElement xElement);

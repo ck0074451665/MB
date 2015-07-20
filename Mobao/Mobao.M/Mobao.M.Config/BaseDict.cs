@@ -7,14 +7,28 @@ using System.Xml.Linq;
 
 namespace Mobao.M.Config
 {
-    public class TestDict : BaseConfig<Dictionary<string, string>>
+    public class BaseDict : BaseConfig<Dictionary<string, string>>
     {
-        public static Dictionary<string, string> Instance { get; private set; }
-        public TestDict()
-            : base("TestDictConfig.xml")
+        private static BaseDict _testDict;
+        public static Dictionary<string, string> Instance
+        {
+            get
+            {
+                if (_testDict == null)
+                {
+                    _testDict = new BaseDict("");
+                }
+                return _testDict.GetDict();
+            }
+        }
+
+
+        protected BaseDict(string subPath)
+            : base(subPath)
         {
 
         }
+
 
         protected override Dictionary<string, string> InstanceStruct(System.Xml.Linq.XElement xNode)
         {
