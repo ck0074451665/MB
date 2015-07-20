@@ -18,14 +18,7 @@ namespace Mobao.M.Utility
         {
             if (obj == null) return default(int);
             int result = default(int);
-            if (obj is string)
-            {
-                int.TryParse(obj.ToString(), out result);
-            }
-            else
-            {
-                int.TryParse(obj.ToString(), out result);
-            }
+            int.TryParse(obj.ToString(), out result);
             return result;
         }
     }
