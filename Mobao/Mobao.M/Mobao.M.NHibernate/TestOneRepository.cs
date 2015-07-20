@@ -13,7 +13,6 @@ namespace Mobao.M.NHibernate
     {
         public void Init()
         {
-            throw new NotImplementedException();
         }
     }
 }
