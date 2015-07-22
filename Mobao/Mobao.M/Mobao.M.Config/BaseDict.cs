@@ -9,18 +9,8 @@ namespace Mobao.M.Config
 {
     public class BaseDict : BaseConfig<Dictionary<string, string>>
     {
-        private static BaseDict _testDict;
-        public static Dictionary<string, string> Instance
-        {
-            get
-            {
-                if (_testDict == null)
-                {
-                    _testDict = new BaseDict("");
-                }
-                return _testDict.GetDict();
-            }
-        }
+        protected static BaseDict _testDict;
+       
 
 
         protected BaseDict(string subPath)

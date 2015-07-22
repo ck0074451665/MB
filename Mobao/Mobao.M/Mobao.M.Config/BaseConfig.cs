@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using System.Web.Caching;
 using System.Xml.Linq;
 namespace Mobao.M.Utility
@@ -15,13 +16,14 @@ namespace Mobao.M.Utility
 
         protected T GetCache(string key)
         {
-            Cache cache = new Cache();
-            return cache.Get(key) as T;
+            Cache cache = HttpRuntime.Cache;
+            object obj = cache.Get(key);
+            return obj == null ? null : obj as T;
         }
 
         protected void SetCache(string key, T t)
         {
-            Cache cache = new Cache();
+            Cache cache = HttpRuntime.Cache;
             cache.Add(key, t, new CacheDependency(configPath),
                 DateTime.Now.AddMinutes(30), new TimeSpan(5), CacheItemPriority.Default, null);
         }
