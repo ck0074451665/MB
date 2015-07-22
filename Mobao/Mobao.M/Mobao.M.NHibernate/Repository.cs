@@ -25,6 +25,7 @@ namespace Mobao.M.NHibernate
             using (ISession session = _sessionFactory.OpenSession())
             {
                 session.Save(t);
+                session.Flush();
             }
         }
 

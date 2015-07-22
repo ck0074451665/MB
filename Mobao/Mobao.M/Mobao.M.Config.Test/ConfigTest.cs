@@ -8,6 +8,7 @@ using Mobao.M.Utility;
 
 namespace Mobao.M.Config.Test
 {
+    [Category("config")]
     [TestFixture]
     public class ConfigTest
     {

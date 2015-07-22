@@ -43,9 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Patient.cs" />
+    <Compile Include="Domain\PatientWardRelation.cs" />
     <Compile Include="Domain\TestOne.cs" />
+    <Compile Include="Domain\Ward.cs" />
     <Compile Include="IRepository.cs" />
+    <Compile Include="Repository\IPatiendWardRelationRepository.cs" />
+    <Compile Include="Repository\IWardRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\IPatientRepository.cs" />
     <Compile Include="Repository\ITestOneRepository.cs" />
   </ItemGroup>
   <ItemGroup />

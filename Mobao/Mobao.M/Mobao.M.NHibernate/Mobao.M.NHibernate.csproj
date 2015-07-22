@@ -53,10 +53,16 @@
   <ItemGroup>
     <Compile Include="DefaultAutomappingConfiguration.cs" />
     <Compile Include="FluentNHibernateHelper.cs" />
+    <Compile Include="Mapper\PatiendWardRelationMap.cs" />
+    <Compile Include="Mapper\PatientMap.cs" />
     <Compile Include="Mapper\TestOneMap.cs" />
+    <Compile Include="Mapper\WardMap.cs" />
+    <Compile Include="PatiendWardRelationRepository.cs" />
+    <Compile Include="PatientRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
     <Compile Include="TestOneRepository.cs" />
+    <Compile Include="WardRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Mobao.M.Domain\Mobao.M.Domain.csproj">
