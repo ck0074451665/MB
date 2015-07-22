@@ -21,6 +21,10 @@ namespace Mobao.M.Service
         public void ApplyDispatchBehavior(ServiceEndpoint endpoint, System.ServiceModel.Dispatcher.EndpointDispatcher endpointDispatcher)
         {
             endpointDispatcher.DispatchRuntime.MessageInspectors.Add(new MessageInspector());
+            foreach (var item in endpointDispatcher.DispatchRuntime.Operations)
+            {
+                item.ParameterInspectors.Add(new ParameterInspector());
+            }
         }
 
         public void Validate(ServiceEndpoint endpoint)
