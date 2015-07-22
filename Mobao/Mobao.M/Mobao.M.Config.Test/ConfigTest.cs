@@ -16,7 +16,7 @@ namespace Mobao.M.Config.Test
         [ExpectedException()]
         public void TestDict()
         {
-            TestDictConfig.Instance["name"].SafeToInt();
+           Console.WriteLine(TestDictConfig.Instance["name"].SafeToInt());
         }
     }
 }
