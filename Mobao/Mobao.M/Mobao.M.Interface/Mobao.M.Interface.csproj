@@ -47,8 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\IPatient.cs" />
-    <Compile Include="Moudle\CompentType.cs" />
-    <Compile Include="Interface\IService1.cs" />
     <Compile Include="Moudle\PatientInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
