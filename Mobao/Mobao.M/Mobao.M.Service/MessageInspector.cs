@@ -25,8 +25,8 @@ namespace Mobao.M.Service
             Tuple<Stopwatch, string> tuplex = (Tuple<Stopwatch, string>)correlationState;
             tuplex.Item1.Stop();
             TimeSpan ts = tuplex.Item1.Elapsed;
-            Mobao.M.Utility.LogHelper.Instance.Info(tuplex.Item2 + "处理完毕.话费时间:" + "小时：" + ts.Hours.ToString()
-                + "分钟：" + ts.Minutes.ToString() + "秒数：" + ts.Seconds.ToString() + "毫秒：" + ts.Milliseconds.ToString());
+            Mobao.M.Utility.LogHelper.Instance.Info(tuplex.Item2 + "处理完毕.话费时间:小时：" + ts.Hours.ToString()
+                + "  分钟：" + ts.Minutes.ToString() + "  秒数：" + ts.Seconds.ToString() + "毫秒：" + ts.Milliseconds.ToString());
         }
     }
 }
