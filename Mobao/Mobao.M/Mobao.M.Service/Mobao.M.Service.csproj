@@ -89,6 +89,7 @@
   <ItemGroup>
     <Compile Include="EndpointBehavior.cs" />
     <Compile Include="ContractBehavior.cs" />
+    <Compile Include="InstanceContextProvider.cs" />
     <Compile Include="MessageInspector.cs" />
     <Compile Include="ParameterInspector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

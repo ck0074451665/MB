@@ -3,15 +3,29 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.ServiceModel;
 using System.Web;
 
 namespace Mobao.M.Service
 {
     public class MessageInspector : System.ServiceModel.Dispatcher.IDispatchMessageInspector
     {
+        static Dictionary<string, object> ContextSession = new Dictionary<string, object>();
         public object AfterReceiveRequest(ref System.ServiceModel.Channels.Message request,
             System.ServiceModel.IClientChannel channel, System.ServiceModel.InstanceContext instanceContext)
         {
+            //权限认证
+            //if (ContextSession.ContainsKey(OperationContext.Current.SessionId))
+            //{
+
+            //}
+            //else if()
+            //{
+            //    throw new FaultException("权限认证失败");
+            //}
+
+
+
             Stopwatch sw = new System.Diagnostics.Stopwatch();
             sw.Start();
             string serviceName = instanceContext.GetServiceInstance().GetType().ToString();
