@@ -1,33 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\MobaoTest.nunit" total="4" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-07-22" time="11:46:56">
+<test-results name="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\MobaoTest.nunit" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-07-24" time="15:40:36">
   <environment nunit-version="2.6.4.14350" clr-version="4.0.30319.18444" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\bin\Debug" machine-name="DUCHENYANG-PC" user="wgl" user-domain="duchenyang-PC" />
   <culture-info current-culture="zh-CN" current-uiculture="zh-CN" />
-  <test-suite type="Project" name="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\MobaoTest.nunit" executed="True" result="Success" success="True" time="3.179" asserts="0">
+  <test-suite type="Project" name="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\MobaoTest.nunit" executed="True" result="Success" success="True" time="2.885" asserts="0">
     <results>
-      <test-suite type="Assembly" name="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\bin\Debug\Mobao.M.Config.Test.dll" executed="True" result="Success" success="True" time="3.179" asserts="0">
+      <test-suite type="Assembly" name="E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\bin\Debug\Mobao.M.Config.Test.dll" executed="True" result="Success" success="True" time="2.879" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Mobao" executed="True" result="Success" success="True" time="3.179" asserts="0">
+          <test-suite type="Namespace" name="Mobao" executed="True" result="Success" success="True" time="2.879" asserts="0">
             <results>
-              <test-suite type="Namespace" name="M" executed="True" result="Success" success="True" time="3.179" asserts="0">
+              <test-suite type="Namespace" name="M" executed="True" result="Success" success="True" time="2.879" asserts="0">
                 <results>
-                  <test-suite type="Namespace" name="Config" executed="True" result="Success" success="True" time="3.178" asserts="0">
+                  <test-suite type="Namespace" name="Config" executed="True" result="Success" success="True" time="2.879" asserts="0">
                     <results>
-                      <test-suite type="Namespace" name="Test" executed="True" result="Success" success="True" time="3.178" asserts="0">
+                      <test-suite type="Namespace" name="Test" executed="True" result="Success" success="True" time="2.879" asserts="0">
                         <results>
-                          <test-suite type="TestFixture" name="TestNhibernate" executed="True" result="Success" success="True" time="3.178" asserts="0">
+                          <test-suite type="TestFixture" name="TestNhibernate" executed="True" result="Success" success="True" time="2.877" asserts="0">
                             <categories>
                               <category name="nhibernate" />
                             </categories>
                             <results>
-                              <test-case name="Mobao.M.Config.Test.TestNhibernate.TestAddRelation" executed="True" result="Success" success="True" time="3.006" asserts="0">
+                              <test-case name="Mobao.M.Config.Test.TestNhibernate.TestVital" executed="True" result="Success" success="True" time="2.870" asserts="0">
                                 <categories>
-                                  <category name="NhibrnateInit" />
+                                  <category name="TestVital" />
                                 </categories>
                               </test-case>
-                              <test-case name="Mobao.M.Config.Test.TestNhibernate.TestAddWard" executed="True" result="Success" success="True" time="0.002" asserts="0" />
-                              <test-case name="Mobao.M.Config.Test.TestNhibernate.TestConnection" executed="True" result="Success" success="True" time="0.003" asserts="0" />
-                              <test-case name="Mobao.M.Config.Test.TestNhibernate.TestLinqQuery" executed="True" result="Success" success="True" time="0.162" asserts="0" />
                             </results>
                           </test-suite>
                         </results>

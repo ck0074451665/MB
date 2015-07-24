@@ -56,12 +56,14 @@
     <Compile Include="Mapper\PatiendWardRelationMap.cs" />
     <Compile Include="Mapper\PatientMap.cs" />
     <Compile Include="Mapper\TestOneMap.cs" />
+    <Compile Include="Mapper\VitalMap.cs" />
     <Compile Include="Mapper\WardMap.cs" />
     <Compile Include="PatiendWardRelationRepository.cs" />
     <Compile Include="PatientRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
     <Compile Include="TestOneRepository.cs" />
+    <Compile Include="VitalRepository.cs" />
     <Compile Include="WardRepository.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.tcp = new System.Windows.Forms.Button();
-            this.wsHttp = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.wsHttp = new System.Windows.Forms.Button();
+            this.tcp = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -51,15 +51,35 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // dataGridView1
+            // button2
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 69);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(781, 447);
-            this.dataGridView1.TabIndex = 1;
+            this.button2.Location = new System.Drawing.Point(586, 19);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Restful";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // wsHttp
+            // 
+            this.wsHttp.Location = new System.Drawing.Point(480, 18);
+            this.wsHttp.Name = "wsHttp";
+            this.wsHttp.Size = new System.Drawing.Size(75, 23);
+            this.wsHttp.TabIndex = 2;
+            this.wsHttp.Text = "wsHttp";
+            this.wsHttp.UseVisualStyleBackColor = true;
+            this.wsHttp.Click += new System.EventHandler(this.wsHttp_Click);
+            // 
+            // tcp
+            // 
+            this.tcp.Location = new System.Drawing.Point(372, 19);
+            this.tcp.Name = "tcp";
+            this.tcp.Size = new System.Drawing.Size(75, 23);
+            this.tcp.TabIndex = 1;
+            this.tcp.Text = "tcp";
+            this.tcp.UseVisualStyleBackColor = true;
+            this.tcp.Click += new System.EventHandler(this.tcp_Click);
             // 
             // button1
             // 
@@ -71,32 +91,15 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // tcp
+            // dataGridView1
             // 
-            this.tcp.Location = new System.Drawing.Point(372, 19);
-            this.tcp.Name = "tcp";
-            this.tcp.Size = new System.Drawing.Size(75, 23);
-            this.tcp.TabIndex = 1;
-            this.tcp.Text = "tcp";
-            this.tcp.UseVisualStyleBackColor = true;
-            // 
-            // wsHttp
-            // 
-            this.wsHttp.Location = new System.Drawing.Point(480, 18);
-            this.wsHttp.Name = "wsHttp";
-            this.wsHttp.Size = new System.Drawing.Size(75, 23);
-            this.wsHttp.TabIndex = 2;
-            this.wsHttp.Text = "wsHttp";
-            this.wsHttp.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(586, 19);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Restful";
-            this.button2.UseVisualStyleBackColor = true;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 69);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(781, 447);
+            this.dataGridView1.TabIndex = 1;
             // 
             // MainForm
             // 

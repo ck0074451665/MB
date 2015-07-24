@@ -25,6 +25,38 @@ namespace Mobao.M.Winform
             IPatient iPat = chanel.CreateChannel();
             List<PatientInfo> query = iPat.GetPatientInfo();
             dataGridView1.DataSource = query;
+            MessageBox.Show(iPat.Test());
+            MessageBox.Show("basc成功");
+        }
+
+        private void tcp_Click(object sender, EventArgs e)
+        {
+            System.ServiceModel.ChannelFactory<IPatient> chanel =
+            new System.ServiceModel.ChannelFactory<IPatient>("tcpEndpoint");
+            IPatient iPat = chanel.CreateChannel();
+            List<PatientInfo> query = iPat.GetPatientInfo();
+            dataGridView1.DataSource = query;
+            MessageBox.Show("tcp成功");
+        }
+
+        private void wsHttp_Click(object sender, EventArgs e)
+        {
+            System.ServiceModel.ChannelFactory<IPatient> chanel =
+           new System.ServiceModel.ChannelFactory<IPatient>("wsHttpEndpoint");
+            IPatient iPat = chanel.CreateChannel();
+            List<PatientInfo> query = iPat.GetPatientInfo();
+            dataGridView1.DataSource = query;
+            MessageBox.Show("wsHttp成功");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.ServiceModel.ChannelFactory<IPatient> chanel =
+       new System.ServiceModel.ChannelFactory<IPatient>("webHttpEndpoint");
+            IPatient iPat = chanel.CreateChannel();
+            List<PatientInfo> query = iPat.GetPatientInfo();
+            dataGridView1.DataSource = query;
+            MessageBox.Show("webHttp成功");
         }
     }
 }

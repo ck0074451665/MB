@@ -1,5 +1,6 @@
 ﻿using Mobao.M.Domain;
 using Mobao.M.Domain;
+using Mobao.M.Domain.Domain;
 using Mobao.M.Utility;
 using NUnit.Framework;
 using System;
@@ -17,9 +18,16 @@ namespace Mobao.M.Config.Test
         public void TestConnection()
         {
             Mobao.M.Domain.IRepository<Patient> repo = new Mobao.M.NHibernate.PatientRepository();
-            repo.Add(new Patient() { Id = Guid.NewGuid().ToString("N"), Name = "www", Brithday = DateTime.Now, Remark = "", Sex = Sex.Man });
+            repo.Add(new Patient() { Name = "www", Brithday = DateTime.Now, Remark = "", Sex = Sex.Man });
         }
 
+        [Category("TestVital")]
+        [Test]
+        public void TestVital()
+        {
+            Mobao.M.Domain.IRepository<Vital> vitalRepo = new Mobao.M.NHibernate.VitalRepository();
+            vitalRepo.Add(new Vital() { Name = "0000" });
+        }
 
         [Test]
         public void TestLinqQuery()
@@ -36,10 +44,10 @@ namespace Mobao.M.Config.Test
                         let SexName = EnumHelper.GetDescription(sexName)
                         join pw in pwRelation on p.Id equals pw.PId
                         join w in wQuery on pw.WId equals w.Id
-                        select new { PatientId = p.Id, PatientName = p.Name, WardName = w.Name,SexName=SexName };
+                        select new { PatientId = p.Id, PatientName = p.Name, WardName = w.Name, SexName = SexName };
             foreach (var item in query)
             {
-                Console.WriteLine(string.Format("病患：{0},病区:{1}。性别:{2}", item.PatientName, item.WardName,item.SexName));
+                Console.WriteLine(string.Format("病患：{0},病区:{1}。性别:{2}", item.PatientName, item.WardName, item.SexName));
             }
         }
 

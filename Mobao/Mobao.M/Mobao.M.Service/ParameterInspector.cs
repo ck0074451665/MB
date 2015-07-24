@@ -15,7 +15,7 @@ namespace Mobao.M.Service
 
         public object BeforeCall(string operationName, object[] inputs)
         {
-            return "调用操作,参数信息：" + string.Join(",", inputs == null ? string.Empty : string.Join(",", inputs.ToArray()));
+            return "调用操作:operationName,参数信息：" + string.Join(",", inputs == null ? string.Empty : string.Join(",", inputs.ToArray()));
         }
     }
 }

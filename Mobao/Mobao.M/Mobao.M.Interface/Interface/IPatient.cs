@@ -5,6 +5,7 @@ using System.Linq;
 using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
+using System.ServiceModel;
 
 namespace Mobao.M.Interface
 {
@@ -13,5 +14,12 @@ namespace Mobao.M.Interface
     {
         [OperationContract]
         List<PatientInfo> GetPatientInfo();
+
+        [OperationContract]
+        string Test();
+
+        [OperationContract]
+        PatientInfo GetPatientInfoEntity();
+
     }
 }

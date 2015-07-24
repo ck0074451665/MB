@@ -10,7 +10,6 @@ namespace Mobao.M.Service
     {
         public void AddBindingParameters(ServiceEndpoint endpoint, System.ServiceModel.Channels.BindingParameterCollection bindingParameters)
         {
-
         }
 
         public void ApplyClientBehavior(ServiceEndpoint endpoint, System.ServiceModel.Dispatcher.ClientRuntime clientRuntime)
@@ -20,6 +19,7 @@ namespace Mobao.M.Service
 
         public void ApplyDispatchBehavior(ServiceEndpoint endpoint, System.ServiceModel.Dispatcher.EndpointDispatcher endpointDispatcher)
         {
+           
             endpointDispatcher.DispatchRuntime.MessageInspectors.Add(new MessageInspector());
             foreach (var item in endpointDispatcher.DispatchRuntime.Operations)
             {
@@ -29,7 +29,6 @@ namespace Mobao.M.Service
 
         public void Validate(ServiceEndpoint endpoint)
         {
-
         }
 
 

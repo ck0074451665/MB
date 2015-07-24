@@ -7,7 +7,7 @@ using System.Web;
 
 namespace Mobao.M.Service
 {
-    public class ServiceBehavior : System.ServiceModel.Configuration.BehaviorExtensionElement, IServiceBehavior
+    public class ServiceBehavior : System.ServiceModel.Configuration.BehaviorExtensionElement, IServiceBehavior, IErrorHandler
     {
         public void AddBindingParameters(ServiceDescription serviceDescription, System.ServiceModel.ServiceHostBase serviceHostBase, System.Collections.ObjectModel.Collection<ServiceEndpoint> endpoints, System.ServiceModel.Channels.BindingParameterCollection bindingParameters)
         {
@@ -16,11 +16,15 @@ namespace Mobao.M.Service
 
         public void ApplyDispatchBehavior(ServiceDescription serviceDescription, System.ServiceModel.ServiceHostBase serviceHostBase)
         {
+            foreach (ChannelDispatcher channelDispatcher in serviceHostBase.ChannelDispatchers)
+            {
+                channelDispatcher.ErrorHandlers.Add(this);
+            }
         }
 
         public void Validate(ServiceDescription serviceDescription, System.ServiceModel.ServiceHostBase serviceHostBase)
         {
-           
+          
         }
 
         public override Type BehaviorType
@@ -31,6 +35,16 @@ namespace Mobao.M.Service
         protected override object CreateBehavior()
         {
             return new ServiceBehavior();
+        }
+
+        public bool HandleError(Exception error)
+        {
+            return true;
+        }
+
+        public void ProvideFault(Exception error, System.ServiceModel.Channels.MessageVersion version, ref System.ServiceModel.Channels.Message fault)
+        {
+            Mobao.M.Utility.LogHelper.Instance.Error("服务错误.", error);
         }
     }
 }
