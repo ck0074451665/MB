@@ -15,9 +15,8 @@ namespace Mobao.M.Config.Test
         [Test]
         public void TestDict()
         {
-            Console.WriteLine(TestDictConfig.Instance["name1"].SafeToInt());
-            Console.WriteLine(TestDictConfig.Instance["name2"].SafeToInt());
-            Console.WriteLine(TestDictConfig.Instance["name3"].SafeToInt());
+            Console.WriteLine(TestDictConfig.Instance["name1"]));
+            Console.WriteLine(TestDictConfig.Instance["name"]));
         }
     }
 }

@@ -16,15 +16,15 @@ namespace Mobao.M.Service
 
         public void ApplyDispatchBehavior(ServiceDescription serviceDescription, System.ServiceModel.ServiceHostBase serviceHostBase)
         {
-            var instance = new InstanceContextProvider();
-            foreach (ChannelDispatcher channelDispatcher in serviceHostBase.ChannelDispatchers)
-            {
-                channelDispatcher.ErrorHandlers.Add(this);
-                foreach (EndpointDispatcher item in channelDispatcher.Endpoints)
-                {
-                    item.DispatchRuntime.InstanceContextProvider = instance;
-                }
-            }
+            //var instance = new InstanceContextProvider();
+            //foreach (ChannelDispatcher channelDispatcher in serviceHostBase.ChannelDispatchers)
+            //{
+            //    channelDispatcher.ErrorHandlers.Add(this);
+            //    foreach (EndpointDispatcher item in channelDispatcher.Endpoints)
+            //    {
+            //        item.DispatchRuntime.InstanceContextProvider = instance;
+            //    }
+            //}
         }
 
         public void Validate(ServiceDescription serviceDescription, System.ServiceModel.ServiceHostBase serviceHostBase)

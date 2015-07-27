@@ -14,7 +14,6 @@ using System.ServiceModel.Activation;
 
 namespace Mobao.M
 {
-    [ServiceBehavior(InstanceContextMode=InstanceContextMode.PerSession)]
     [AspNetCompatibilityRequirements()]
     public class PatientContext2 : IPatient
     {

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobao.M.Interface", "Mobao.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobao.M.Winform", "Mobao.M.Winform\Mobao.M.Winform.csproj", "{62438C95-733F-469B-80DB-5FD15172B0EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobao.M.Utility", "Mobao.M.Utility\Mobao.M.Utility.csproj", "{1DAFDE6C-5CA7-4403-9801-D5E9633E8A06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{62438C95-733F-469B-80DB-5FD15172B0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62438C95-733F-469B-80DB-5FD15172B0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62438C95-733F-469B-80DB-5FD15172B0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DAFDE6C-5CA7-4403-9801-D5E9633E8A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAFDE6C-5CA7-4403-9801-D5E9633E8A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAFDE6C-5CA7-4403-9801-D5E9633E8A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAFDE6C-5CA7-4403-9801-D5E9633E8A06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

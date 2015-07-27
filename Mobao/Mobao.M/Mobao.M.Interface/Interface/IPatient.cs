@@ -9,7 +9,7 @@ using System.ServiceModel;
 
 namespace Mobao.M.Interface
 {
-    [ServiceContract(SessionMode = SessionMode.Required)]
+    [ServiceContract()]
     public interface IPatient
     {
         [OperationContract]

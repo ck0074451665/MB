@@ -33,7 +33,6 @@ namespace Mobao.M
                         join w in wQuery on pw.WId equals w.Id
                         select new PatientInfo { PatientName = p.Name, SexName = SexName, WardName = w.Name };
             return query.ToList();
-            //return new List<PatientInfo>();
 
         }
 

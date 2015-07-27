@@ -20,14 +20,19 @@ namespace Mobao.M.Config
         }
 
 
-        protected override Dictionary<string, string> InstanceStruct(System.Xml.Linq.XElement xNode)
+        protected override Dictionary<T, T1> InstanceStruct(System.Xml.Linq.XElement xNode)
         {
-            Dictionary<string, string> dict = new Dictionary<string, string>();
+            Dictionary<T, T1> dict = new Dictionary<T, T1>();
             foreach (System.Xml.Linq.XNode item in xNode.Nodes())
             {
-                dict.Add(((XElement)item).Attribute("key").Value, ((XElement)item).Attribute("value").Value);
+                AdapterData(dict, item);
             }
             return dict;
+        }
+
+
+        protected virtual void AdapterData(Dictionary<T, T1> dict, System.Xml.Linq.XNode node)
+        {
         }
     }
 }
