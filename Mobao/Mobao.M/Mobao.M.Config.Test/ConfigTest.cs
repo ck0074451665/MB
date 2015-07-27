@@ -13,10 +13,11 @@ namespace Mobao.M.Config.Test
     public class ConfigTest
     {
         [Test]
-        [ExpectedException()]
         public void TestDict()
         {
-           Console.WriteLine(TestDictConfig.Instance["name"].SafeToInt());
+            Console.WriteLine(TestDictConfig.Instance["name1"].SafeToInt());
+            Console.WriteLine(TestDictConfig.Instance["name2"].SafeToInt());
+            Console.WriteLine(TestDictConfig.Instance["name3"].SafeToInt());
         }
     }
 }

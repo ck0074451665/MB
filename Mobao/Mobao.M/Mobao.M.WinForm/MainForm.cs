@@ -43,7 +43,7 @@ namespace Mobao.M.Winform
         private void wsHttp_Click(object sender, EventArgs e)
         {
             System.ServiceModel.ChannelFactory<IPatient> chanel =
-           new System.ServiceModel.ChannelFactory<IPatient>("wsHttpEndpoint");
+           new System.ServiceModel.ChannelFactory<IPatient>("bascEndpoint2");
             IPatient iPat = chanel.CreateChannel();
             List<PatientInfo> query = iPat.GetPatientInfo();
             dataGridView1.DataSource = query;

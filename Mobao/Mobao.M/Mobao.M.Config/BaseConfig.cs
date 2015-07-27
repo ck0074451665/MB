@@ -11,6 +11,9 @@ namespace Mobao.M.Utility
 {
     public abstract class BaseConfig<T> where T : class
     {
+        const string ROOT_ELEMENT = "config";
+        const string RELATIVE_PATH = "Config";
+
         protected string configPath = string.Empty;
 
 
@@ -25,12 +28,12 @@ namespace Mobao.M.Utility
         {
             Cache cache = HttpRuntime.Cache;
             cache.Add(key, t, new CacheDependency(configPath),
-                DateTime.Now.AddMinutes(30), new TimeSpan(5), CacheItemPriority.Default, null);
+               System.Web.Caching.Cache.NoAbsoluteExpiration, new TimeSpan(0, 20, 0), CacheItemPriority.Default, null);
         }
 
         protected BaseConfig(string subPath)
         {
-            configPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory + "Config", subPath);
+            configPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory + RELATIVE_PATH, subPath);
         }
 
 
@@ -52,7 +55,11 @@ namespace Mobao.M.Utility
                 throw new ArgumentException("没有找到" + subPath + "文件路径！");
             }
             XDocument xDoc = XDocument.Load(configPath);
-            XElement xNode = xDoc.Element("Item");
+            XElement xNode = xDoc.Element(ROOT_ELEMENT);
+            if (xNode == null)
+            {
+                throw new ArgumentException("是否没有元素或者根目录不是\"" + ROOT_ELEMENT + "\"");
+            }
             var t = InstanceStruct(xNode);
             return t;
         }

@@ -81,6 +81,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="log4net.xml" />
+    <Content Include="PatientService2.svc" />
     <Content Include="PatientService.svc" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

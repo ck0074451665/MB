@@ -5,17 +5,17 @@ using System.Text;
 
 namespace Mobao.M.Config
 {
-    public class TestDictConfig : BaseDict
+    public class TestDictConfig : BaseDict<string, int>
     {
-        public static Dictionary<string, string> Instance
+        public static Dictionary<string, int> Instance
         {
             get
             {
-                if (_testDict == null)
+                if (_baseDict == null)
                 {
-                    _testDict = new TestDictConfig();
+                    _baseDict = new TestDictConfig();
                 }
-                return _testDict.GetDict();
+                return _baseDict.GetDict();
             }
         }
         public TestDictConfig()

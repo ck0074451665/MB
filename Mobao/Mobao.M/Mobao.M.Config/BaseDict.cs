@@ -7,10 +7,10 @@ using System.Xml.Linq;
 
 namespace Mobao.M.Config
 {
-    public class BaseDict : BaseConfig<Dictionary<string, string>>
+    public class BaseDict<T, T1> : BaseConfig<Dictionary<T, T1>>
     {
-        protected static BaseDict _testDict;
-       
+        protected static BaseDict<T, T1> _baseDict;
+
 
 
         protected BaseDict(string subPath)

@@ -2,7 +2,7 @@
 <VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
   <TopNode>[0-1000]E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\MobaoTest.nunit</TopNode>
   <SelectedNode>[0-1000]E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\MobaoTest.nunit</SelectedNode>
-  <SelectedCategories>TestVital</SelectedCategories>
+  <SelectedCategories>config</SelectedCategories>
   <ExcludeCategories>false</ExcludeCategories>
   <Nodes>
     <Node UniqueName="[0-1000]E:\陈凯工作\MB\Mobao\Mobao.M\Mobao.M.Config.Test\MobaoTest.nunit" Expanded="true" />
