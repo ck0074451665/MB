@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Mobao.M.Domain.Domain;
 
 namespace Mobao.M.Domain
 {
@@ -15,7 +16,7 @@ namespace Mobao.M.Domain
         [Description("女")]
         Women = 1
     }
-
+    [DataContract]
     public class Patient
     {
         public virtual string Id { get; set; }

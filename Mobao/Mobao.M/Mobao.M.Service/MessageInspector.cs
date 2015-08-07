@@ -23,9 +23,8 @@ namespace Mobao.M.Service
             //{
             //    throw new FaultException("权限认证失败");
             //}
-
             string session = channel.SessionId;
-            Mobao.M.Utility.LogHelper.Instance.Info(session);
+            Mobao.M.Utility.LogHelper.Instance.Info(session + "--" );
             Stopwatch sw = new System.Diagnostics.Stopwatch();
             sw.Start();
             string serviceName = instanceContext.GetServiceInstance().GetType().ToString();

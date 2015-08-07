@@ -59,5 +59,25 @@ namespace Mobao.M.Winform
             dataGridView1.DataSource = query;
             MessageBox.Show("webHttp成功");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            System.ServiceModel.ChannelFactory<IPatient> chanel =
+     new System.ServiceModel.ChannelFactory<IPatient>("wsHttpBiding22");
+            IPatient iPat = chanel.CreateChannel();
+            List<PatientInfo> query = iPat.GetPatientInfo();
+            dataGridView1.DataSource = query;
+            MessageBox.Show("wsHttpBinding22成功");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            System.ServiceModel.ChannelFactory<IPatient3> chanel =
+   new System.ServiceModel.ChannelFactory<IPatient3>("wsHttpBiding33");
+            IPatient3 iPat = chanel.CreateChannel();
+            List<PatientInfo> query = iPat.GetPatientInfo();
+            dataGridView1.DataSource = query;
+            MessageBox.Show("wsHttpBinding33成功");
+        }
     }
 }

@@ -15,8 +15,8 @@ namespace Mobao.M.Config.Test
         [Test]
         public void TestDict()
         {
-            Console.WriteLine(TestDictConfig.Instance["name1"]));
-            Console.WriteLine(TestDictConfig.Instance["name"]));
+            Console.WriteLine(TestDictConfig.Instance["name1"]);
+            Console.WriteLine(TestDictConfig.Instance["name"]);
         }
     }
 }

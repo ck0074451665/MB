@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\DataContract.cs" />
     <Compile Include="Domain\Patient.cs" />
     <Compile Include="Domain\PatientWardRelation.cs" />
     <Compile Include="Domain\TestOne.cs" />
