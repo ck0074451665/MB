@@ -1,0 +1,79 @@
+﻿2012-04-15 08:10:28,391 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz.NET properties loaded from configuration file 'D:\QuartzService\quartz.config'
+2012-04-15 08:10:28,438 INFO  Quartz.Impl.StdSchedulerFactory  - Using default implementation for object serializer
+2012-04-15 08:10:28,478 INFO  Quartz.Impl.StdSchedulerFactory  - Using default implementation for ThreadExecutor
+2012-04-15 08:10:28,498 INFO  Quartz.Core.SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2012-04-15 08:10:28,498 INFO  Quartz.Core.QuartzScheduler  - Quartz Scheduler v.2.0.0.400 created.
+2012-04-15 08:10:28,502 INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin  - Registering Quartz Job Initialization Plug-in.
+2012-04-15 08:10:28,517 INFO  Quartz.Simpl.RAMJobStore  - RAMJobStore initialized.
+2012-04-15 08:10:28,540 INFO  Quartz.Simpl.RemotingSchedulerExporter  - Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (555) with name (httpQuartz)
+2012-04-15 08:10:28,540 INFO  Quartz.Simpl.RemotingSchedulerExporter  - Remoting channel registered successfully
+2012-04-15 08:10:28,541 INFO  Quartz.Simpl.RemotingSchedulerExporter  - Successfully marhalled remotable scheduler under name 'QuartzScheduler'
+2012-04-15 08:10:28,543 INFO  Quartz.Core.QuartzScheduler  - Scheduler meta-data: Quartz Scheduler (v2.0.0.400) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote incovation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2012-04-15 08:10:28,543 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz scheduler 'ServerScheduler' initialized
+2012-04-15 08:10:28,543 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz scheduler version: 2.0.0.400
+2012-04-15 08:10:28,554 INFO  Quartz.Xml.XMLSchedulingDataProcessor  - Parsing XML file: D:\QuartzService\quartz_jobs.xml with systemId: ~/quartz_jobs.xml
+2012-04-15 08:10:28,930 INFO  Quartz.Xml.XMLSchedulingDataProcessor  - Adding 2 jobs, 3 triggers.
+2012-04-15 08:10:28,933 INFO  Quartz.Xml.XMLSchedulingDataProcessor  - Adding job: DeomJobGroup.DemoJob1
+2012-04-15 08:10:28,937 INFO  Quartz.Xml.XMLSchedulingDataProcessor  - Adding job: DeomJobGroup.DemoJob2
+2012-04-15 08:10:28,997 INFO  Quartz.Core.QuartzScheduler  - Scheduler ServerScheduler_$_NON_CLUSTERED started.
+2012-04-15 08:10:28,997 INFO  Quartz.Net.Service.QuartzService  - Quartz服务成功启动
+2012-04-15 08:10:30,041 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 任务开始运行
+2012-04-15 08:10:30,041 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行0
+2012-04-15 08:10:30,041 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行1
+2012-04-15 08:10:30,041 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行2
+2012-04-15 08:10:30,041 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行3
+2012-04-15 08:10:30,041 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行4
+2012-04-15 08:10:30,041 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行5
+2012-04-15 08:10:30,041 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行6
+2012-04-15 08:10:30,041 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行7
+2012-04-15 08:10:30,041 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行8
+2012-04-15 08:10:30,041 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行9
+2012-04-15 08:10:30,041 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1任务运行结束
+2012-04-15 08:11:00,002 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 任务开始运行
+2012-04-15 08:11:00,002 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行0
+2012-04-15 08:11:00,002 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行1
+2012-04-15 08:11:00,002 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行2
+2012-04-15 08:11:00,002 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行3
+2012-04-15 08:11:00,002 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行4
+2012-04-15 08:11:00,003 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行5
+2012-04-15 08:11:00,003 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行6
+2012-04-15 08:11:00,003 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行7
+2012-04-15 08:11:00,003 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行8
+2012-04-15 08:11:00,003 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行9
+2012-04-15 08:11:00,003 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1任务运行结束
+2012-04-15 08:11:00,003 INFO  Quartz.Net.Demo.DemoJob2  - DemoJob2 任务开始运行
+2012-04-15 08:11:00,004 INFO  Quartz.Net.Demo.DemoJob2  - DemoJob2 正在运行0
+2012-04-15 08:11:00,004 INFO  Quartz.Net.Demo.DemoJob2  - DemoJob2 正在运行1
+2012-04-15 08:11:00,004 INFO  Quartz.Net.Demo.DemoJob2  - DemoJob2 正在运行2
+2012-04-15 08:11:00,004 INFO  Quartz.Net.Demo.DemoJob2  - DemoJob2 正在运行3
+2012-04-15 08:11:00,004 INFO  Quartz.Net.Demo.DemoJob2  - DemoJob2 正在运行4
+2012-04-15 08:11:00,004 INFO  Quartz.Net.Demo.DemoJob2  - DemoJob2 正在运行5
+2012-04-15 08:11:00,004 INFO  Quartz.Net.Demo.DemoJob2  - DemoJob2 正在运行6
+2012-04-15 08:11:00,004 INFO  Quartz.Net.Demo.DemoJob2  - DemoJob2 正在运行7
+2012-04-15 08:11:00,004 INFO  Quartz.Net.Demo.DemoJob2  - DemoJob2 正在运行8
+2012-04-15 08:11:00,004 INFO  Quartz.Net.Demo.DemoJob2  - DemoJob2 正在运行9
+2012-04-15 08:11:00,005 INFO  Quartz.Net.Demo.DemoJob2  - DemoJob2任务运行结束
+2012-04-15 08:11:29,999 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 任务开始运行
+2012-04-15 08:11:29,999 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行0
+2012-04-15 08:11:29,999 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行1
+2012-04-15 08:11:29,999 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行2
+2012-04-15 08:11:29,999 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行3
+2012-04-15 08:11:29,999 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行4
+2012-04-15 08:11:29,999 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行5
+2012-04-15 08:11:29,999 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行6
+2012-04-15 08:11:29,999 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行7
+2012-04-15 08:11:29,999 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行8
+2012-04-15 08:11:30,000 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1 正在运行9
+2012-04-15 08:11:30,000 INFO  Quartz.Net.Demo.DemoJob1  - DemoJob1任务运行结束
+2012-04-15 08:11:32,607 INFO  Quartz.Core.QuartzScheduler  - Scheduler ServerScheduler_$_NON_CLUSTERED shutting down.
+2012-04-15 08:11:32,608 INFO  Quartz.Core.QuartzScheduler  - Scheduler ServerScheduler_$_NON_CLUSTERED paused.
+2012-04-15 08:11:32,611 INFO  Quartz.Simpl.RemotingSchedulerExporter  - Successfully disconnected remotable scheduler
+2012-04-15 08:11:32,612 INFO  Quartz.Core.QuartzScheduler  - Scheduler ServerScheduler_$_NON_CLUSTERED Shutdown complete.
+2012-04-15 08:11:32,612 INFO  Quartz.Net.Service.QuartzService  - Quartz服务成功终止

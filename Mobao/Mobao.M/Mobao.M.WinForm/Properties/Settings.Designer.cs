@@ -22,5 +22,15 @@ namespace Mobao.M.Winform.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:11719/DMRWebService.asmx")]
+        public string Mobao_M_Winform_BPCWebService_BPCWebService {
+            get {
+                return ((string)(this["Mobao_M_Winform_BPCWebService_BPCWebService"]));
+            }
+        }
     }
 }
