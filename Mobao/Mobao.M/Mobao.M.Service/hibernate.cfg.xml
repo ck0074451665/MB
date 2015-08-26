@@ -16,3 +16,20 @@ for your own use before compile tests in VisualStudio.
     <property name="query.substitutions">true 1, false 0, yes 'Y', no 'N'</property>
   </session-factory>
 </hibernate-configuration>
+
+
+<!--Oracle.DataAccess-->
+<!--<hibernate-configuration  xmlns="urn:nhibernate-configuration-2.2" >
+  <session-factory name="NHibernate.Test">
+    <property name="connection.driver_class">NHibernate.Driver.OracleDataClientDriver</property>
+    <property name="connection.connection_string">
+      Data Source=BPC;User ID=bpc;Password=mobaohls;
+    </property>
+    <property name="show_sql">false</property>
+    <property name="dialect">NHibernate.Dialect.Oracle10gDialect</property>
+    <property name="hbm2ddl.keywords">none</property>
+
+
+    <property name="query.substitutions">true 1, false 0, yes 'Y', no 'N'</property>
+  </session-factory>
+</hibernate-configuration>-->
