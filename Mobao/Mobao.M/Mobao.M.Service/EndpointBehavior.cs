@@ -14,15 +14,16 @@ namespace Mobao.M.Service
 
         public void ApplyClientBehavior(ServiceEndpoint endpoint, System.ServiceModel.Dispatcher.ClientRuntime clientRuntime)
         {
-           //clientRuntime.ClientMessageInspectors.Add(new MessageInspector);
+            //clientRuntime.ClientMessageInspectors.Add(new MessageInspector);
         }
 
         public void ApplyDispatchBehavior(ServiceEndpoint endpoint, System.ServiceModel.Dispatcher.EndpointDispatcher endpointDispatcher)
         {
-           
+
             endpointDispatcher.DispatchRuntime.MessageInspectors.Add(new MessageInspector());
             foreach (var item in endpointDispatcher.DispatchRuntime.Operations)
             {
+                item.CallContextInitializers.Add(new CallContextInitializer());
                 item.ParameterInspectors.Add(new ParameterInspector());
             }
         }

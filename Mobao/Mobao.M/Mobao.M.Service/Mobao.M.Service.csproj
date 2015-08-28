@@ -89,6 +89,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CallContextInitializer.cs" />
     <Compile Include="EndpointBehavior.cs" />
     <Compile Include="ContractBehavior.cs" />
     <Compile Include="InstanceContextProvider.cs" />

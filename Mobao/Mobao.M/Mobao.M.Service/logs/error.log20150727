@@ -1,0 +1,70 @@
+2015-07-27 13:56:36
+服务错误.
+System.InvalidOperationException: 提供的服务类型无法加载为服务，因为它没有默认(缺少参数)构造函数。要解决此问题，请将默认构造函数添加到类型或将类型的实例传递到主机。
+   在 System.ServiceModel.Dispatcher.InstanceBehavior.GetInstance(InstanceContext instanceContext, Message request)
+   在 System.ServiceModel.InstanceContext.GetServiceInstance(Message message)
+   在 System.ServiceModel.Dispatcher.InstanceBehavior.EnsureServiceInstance(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+2015-07-27 13:58:41
+服务错误.
+System.InvalidOperationException: 提供的服务类型无法加载为服务，因为它没有默认(缺少参数)构造函数。要解决此问题，请将默认构造函数添加到类型或将类型的实例传递到主机。
+   在 System.ServiceModel.Dispatcher.InstanceBehavior.GetInstance(InstanceContext instanceContext, Message request)
+   在 System.ServiceModel.InstanceContext.GetServiceInstance(Message message)
+   在 System.ServiceModel.Dispatcher.InstanceBehavior.EnsureServiceInstance(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+2015-07-27 13:59:07
+服务错误.
+System.InvalidOperationException: 提供的服务类型无法加载为服务，因为它没有默认(缺少参数)构造函数。要解决此问题，请将默认构造函数添加到类型或将类型的实例传递到主机。
+   在 System.ServiceModel.Dispatcher.InstanceBehavior.GetInstance(InstanceContext instanceContext, Message request)
+   在 System.ServiceModel.InstanceContext.GetServiceInstance(Message message)
+   在 System.ServiceModel.Dispatcher.InstanceBehavior.EnsureServiceInstance(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+2015-07-27 14:00:08
+服务错误.
+System.InvalidOperationException: 提供的服务类型无法加载为服务，因为它没有默认(缺少参数)构造函数。要解决此问题，请将默认构造函数添加到类型或将类型的实例传递到主机。
+   在 System.ServiceModel.Dispatcher.InstanceBehavior.GetInstance(InstanceContext instanceContext, Message request)
+   在 System.ServiceModel.InstanceContext.GetServiceInstance(Message message)
+   在 System.ServiceModel.Dispatcher.InstanceBehavior.EnsureServiceInstance(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+2015-07-27 14:00:11
+服务错误.
+System.InvalidOperationException: 提供的服务类型无法加载为服务，因为它没有默认(缺少参数)构造函数。要解决此问题，请将默认构造函数添加到类型或将类型的实例传递到主机。
+   在 System.ServiceModel.Dispatcher.InstanceBehavior.GetInstance(InstanceContext instanceContext, Message request)
+   在 System.ServiceModel.InstanceContext.GetServiceInstance(Message message)
+   在 System.ServiceModel.Dispatcher.InstanceBehavior.EnsureServiceInstance(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   在 System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
