@@ -24,24 +24,27 @@ namespace Mobao.M.Winform
     public class AsyncResult : IAsyncResult
     {
 
+
         public object AsyncState
         {
-            get { throw new NotImplementedException(); }
+            get;
+            private set;
         }
 
         public System.Threading.WaitHandle AsyncWaitHandle
         {
-            get { throw new NotImplementedException(); }
+            get;
+            private set;
         }
 
         public bool CompletedSynchronously
         {
-            get { throw new NotImplementedException(); }
+            get { return true; }
         }
 
         public bool IsCompleted
         {
-            get { throw new NotImplementedException(); }
+            get { return true; }
         }
     }
 }
