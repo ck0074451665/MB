@@ -1,0 +1,253 @@
+2015-08-28 11:52:09,499 [6] INFO  configFile - uuid:405d52fd-1fb8-4781-b57a-2cdfb2fce9fe;id=1
+2015-08-28 11:52:09,518 [6] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:52:09,772 [6] INFO  NHibernate.Cfg.Environment - NHibernate 4.0.3.GA (assembly 4.0.0.4000)
+2015-08-28 11:52:09,773 [6] INFO  NHibernate.Cfg.Environment - hibernate-configuration section not found in application configuration file
+2015-08-28 11:52:09,775 [6] INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2015-08-28 11:52:09,776 [6] INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2015-08-28 11:52:09,886 [6] INFO  NHibernate.Cfg.Configuration - Configured SessionFactory: NHibernate.Test
+2015-08-28 11:52:10,872 [6] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:52:10,936 [6] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.PatientWardRelation -> PATIENT_WARD_RELATION
+2015-08-28 11:52:10,982 [6] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:52:10,983 [6] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.Patient -> PATIENT
+2015-08-28 11:52:10,987 [6] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:52:10,987 [6] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.TestOne -> NURSING_DOC_DATA_REF
+2015-08-28 11:52:10,989 [6] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:52:10,989 [6] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.Domain.Vital -> Vital
+2015-08-28 11:52:10,990 [6] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:52:10,990 [6] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.Ward -> Ward
+2015-08-28 11:52:10,994 [6] INFO  NHibernate.Cfg.Configuration - checking mappings queue
+2015-08-28 11:52:10,994 [6] INFO  NHibernate.Cfg.Configuration - processing one-to-many association mappings
+2015-08-28 11:52:10,994 [6] INFO  NHibernate.Cfg.Configuration - processing one-to-one association property references
+2015-08-28 11:52:10,994 [6] INFO  NHibernate.Cfg.Configuration - processing foreign key constraints
+2015-08-28 11:52:10,995 [6] INFO  NHibernate.Cfg.Configuration - processing filters (second pass)
+2015-08-28 11:52:11,016 [6] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:52:11,039 [6] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:52:11,114 [6] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory - Using dialect defined converter
+2015-08-28 11:52:11,114 [6] INFO  NHibernate.Cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-08-28 11:52:11,115 [6] INFO  NHibernate.Connection.ConnectionProvider - Configuring ConnectionProvider
+2015-08-28 11:52:11,170 [6] INFO  NHibernate.Cfg.SettingsFactory - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2015-08-28 11:52:11,171 [6] INFO  NHibernate.Cfg.SettingsFactory - Optimize cache for minimal puts: False
+2015-08-28 11:52:11,171 [6] INFO  NHibernate.Cfg.SettingsFactory - Connection release mode: auto
+2015-08-28 11:52:11,171 [6] INFO  NHibernate.Cfg.SettingsFactory - Default batch fetch size: 1
+2015-08-28 11:52:11,171 [6] INFO  NHibernate.Cfg.SettingsFactory - Statistics: disabled
+2015-08-28 11:52:11,171 [6] INFO  NHibernate.Cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-08-28 11:52:11,171 [6] INFO  NHibernate.Cfg.SettingsFactory - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2015-08-28 11:52:11,174 [6] INFO  NHibernate.Cfg.SettingsFactory - Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N''}
+2015-08-28 11:52:11,174 [6] INFO  NHibernate.Cfg.SettingsFactory - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2015-08-28 11:52:11,175 [6] INFO  NHibernate.Cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-08-28 11:52:11,175 [6] INFO  NHibernate.Cfg.SettingsFactory - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2015-08-28 11:52:11,176 [6] INFO  NHibernate.Cfg.SettingsFactory - Default entity-mode: Poco
+2015-08-28 11:52:11,176 [6] INFO  NHibernate.Cfg.SettingsFactory - Named query checking : enabled
+2015-08-28 11:52:11,176 [6] INFO  NHibernate.Cfg.SettingsFactory - Ignoring exceptions in BeforeTransactionCompletion : disabled
+2015-08-28 11:52:11,189 [6] INFO  NHibernate.Impl.SessionFactoryImpl - building session factory
+2015-08-28 11:52:15,601 [6] INFO  NHibernate.Impl.SessionFactoryObjectFactory - Factory name:NHibernate.Test
+2015-08-28 11:52:16,084 [6] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Name (Class)]
+2015-08-28 11:52:16,089 [6] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Name (Class)]
+2015-08-28 11:52:16,089 [6] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Sex (Class)]
+2015-08-28 11:52:16,089 [6] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Sex (Class)]
+2015-08-28 11:52:16,089 [6] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Ward (w) -> Name (Class)]
+2015-08-28 11:52:16,089 [6] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Ward (w) -> Name (Class)]
+2015-08-28 11:52:16,108 [6] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.PatientWardRelation (pw) -> PId (Class)]
+2015-08-28 11:52:16,108 [6] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Id (Class)]
+2015-08-28 11:52:16,110 [6] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Ward (w) -> Id (Class)]
+2015-08-28 11:52:16,110 [6] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.PatientWardRelation (pw) -> WId (Class)]
+2015-08-28 11:52:16,321 [6] INFO  NHibernate.Loader.Loader - select patient0_.NAME as col_0_0_, patient0_.SEX as col_1_0_, ward2_.NAME as col_2_0_ from PATIENT patient0_, PATIENT_WARD_RELATION patientwar1_, Ward ward2_ where patientwar1_.PID=patient0_.ID and ward2_.ID=patientwar1_.WID
+2015-08-28 11:52:16,875 [6] INFO  configFile - 操作信息:调用操作:GetPatientInfo,参数信息：
+2015-08-28 11:52:16,881 [6] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：7毫秒：362
+2015-08-28 11:52:38,775 [12] INFO  configFile - uuid:405d52fd-1fb8-4781-b57a-2cdfb2fce9fe;id=2
+2015-08-28 11:52:38,798 [12] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:52:38,800 [12] INFO  NHibernate.Loader.Loader - select patient0_.NAME as col_0_0_, patient0_.SEX as col_1_0_, ward2_.NAME as col_2_0_ from PATIENT patient0_, PATIENT_WARD_RELATION patientwar1_, Ward ward2_ where patientwar1_.PID=patient0_.ID and ward2_.ID=patientwar1_.WID
+2015-08-28 11:52:39,086 [12] INFO  configFile - 操作信息:调用操作:GetPatientInfo,参数信息：
+2015-08-28 11:52:39,086 [12] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：288
+2015-08-28 11:53:23,923 [16] INFO  configFile - (null)
+2015-08-28 11:53:23,923 [16] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:53:23,925 [16] INFO  NHibernate.Loader.Loader - select patient0_.NAME as col_0_0_, patient0_.SEX as col_1_0_, ward2_.NAME as col_2_0_ from PATIENT patient0_, PATIENT_WARD_RELATION patientwar1_, Ward ward2_ where patientwar1_.PID=patient0_.ID and ward2_.ID=patientwar1_.WID
+2015-08-28 11:53:24,119 [16] INFO  configFile - 操作信息:调用操作:GetPatientInfo,参数信息：
+2015-08-28 11:53:24,119 [16] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：196
+2015-08-28 11:53:24,244 [17] INFO  configFile - (null)
+2015-08-28 11:53:24,244 [17] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:53:24,245 [17] INFO  configFile - 操作信息:调用操作:Test,参数信息：
+2015-08-28 11:53:24,246 [17] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：1
+2015-08-28 11:53:49,891 [10] INFO  configFile - (null)
+2015-08-28 11:53:49,892 [10] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:53:49,924 [10] INFO  NHibernate.Cfg.Environment - NHibernate 4.0.3.GA (assembly 4.0.0.4000)
+2015-08-28 11:53:49,924 [10] INFO  NHibernate.Cfg.Environment - hibernate-configuration section not found in application configuration file
+2015-08-28 11:53:49,924 [10] INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2015-08-28 11:53:49,924 [10] INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2015-08-28 11:53:49,937 [10] INFO  NHibernate.Cfg.Configuration - Configured SessionFactory: NHibernate.Test
+2015-08-28 11:53:50,485 [10] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:53:50,521 [10] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.PatientWardRelation -> PATIENT_WARD_RELATION
+2015-08-28 11:53:50,539 [10] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:53:50,540 [10] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.Patient -> PATIENT
+2015-08-28 11:53:50,544 [10] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:53:50,545 [10] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.TestOne -> NURSING_DOC_DATA_REF
+2015-08-28 11:53:50,547 [10] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:53:50,547 [10] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.Domain.Vital -> Vital
+2015-08-28 11:53:50,548 [10] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:53:50,548 [10] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.Ward -> Ward
+2015-08-28 11:53:50,550 [10] INFO  NHibernate.Cfg.Configuration - checking mappings queue
+2015-08-28 11:53:50,551 [10] INFO  NHibernate.Cfg.Configuration - processing one-to-many association mappings
+2015-08-28 11:53:50,551 [10] INFO  NHibernate.Cfg.Configuration - processing one-to-one association property references
+2015-08-28 11:53:50,551 [10] INFO  NHibernate.Cfg.Configuration - processing foreign key constraints
+2015-08-28 11:53:50,552 [10] INFO  NHibernate.Cfg.Configuration - processing filters (second pass)
+2015-08-28 11:53:50,566 [10] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:53:50,572 [10] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 11:53:50,581 [10] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory - Using dialect defined converter
+2015-08-28 11:53:50,581 [10] INFO  NHibernate.Cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-08-28 11:53:50,582 [10] INFO  NHibernate.Connection.ConnectionProvider - Configuring ConnectionProvider
+2015-08-28 11:53:50,589 [10] INFO  NHibernate.Cfg.SettingsFactory - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2015-08-28 11:53:50,589 [10] INFO  NHibernate.Cfg.SettingsFactory - Optimize cache for minimal puts: False
+2015-08-28 11:53:50,589 [10] INFO  NHibernate.Cfg.SettingsFactory - Connection release mode: auto
+2015-08-28 11:53:50,589 [10] INFO  NHibernate.Cfg.SettingsFactory - Default batch fetch size: 1
+2015-08-28 11:53:50,589 [10] INFO  NHibernate.Cfg.SettingsFactory - Statistics: disabled
+2015-08-28 11:53:50,589 [10] INFO  NHibernate.Cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-08-28 11:53:50,590 [10] INFO  NHibernate.Cfg.SettingsFactory - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2015-08-28 11:53:50,591 [10] INFO  NHibernate.Cfg.SettingsFactory - Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N''}
+2015-08-28 11:53:50,592 [10] INFO  NHibernate.Cfg.SettingsFactory - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2015-08-28 11:53:50,592 [10] INFO  NHibernate.Cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-08-28 11:53:50,593 [10] INFO  NHibernate.Cfg.SettingsFactory - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2015-08-28 11:53:50,593 [10] INFO  NHibernate.Cfg.SettingsFactory - Default entity-mode: Poco
+2015-08-28 11:53:50,593 [10] INFO  NHibernate.Cfg.SettingsFactory - Named query checking : enabled
+2015-08-28 11:53:50,593 [10] INFO  NHibernate.Cfg.SettingsFactory - Ignoring exceptions in BeforeTransactionCompletion : disabled
+2015-08-28 11:53:50,603 [10] INFO  NHibernate.Impl.SessionFactoryImpl - building session factory
+2015-08-28 11:53:50,876 [10] INFO  NHibernate.Impl.SessionFactoryObjectFactory - Factory name:NHibernate.Test
+2015-08-28 11:53:51,066 [10] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Name (Class)]
+2015-08-28 11:53:51,071 [10] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Name (Class)]
+2015-08-28 11:53:51,071 [10] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Sex (Class)]
+2015-08-28 11:53:51,071 [10] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Sex (Class)]
+2015-08-28 11:53:51,071 [10] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Ward (w) -> Name (Class)]
+2015-08-28 11:53:51,071 [10] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Ward (w) -> Name (Class)]
+2015-08-28 11:53:51,090 [10] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.PatientWardRelation (pw) -> PId (Class)]
+2015-08-28 11:53:51,090 [10] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Id (Class)]
+2015-08-28 11:53:51,091 [10] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Ward (w) -> Id (Class)]
+2015-08-28 11:53:51,091 [10] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.PatientWardRelation (pw) -> WId (Class)]
+2015-08-28 11:53:51,135 [10] INFO  NHibernate.Loader.Loader - select patient0_.NAME as col_0_0_, patient0_.SEX as col_1_0_, ward2_.NAME as col_2_0_ from PATIENT patient0_, PATIENT_WARD_RELATION patientwar1_, Ward ward2_ where patientwar1_.PID=patient0_.ID and ward2_.ID=patientwar1_.WID
+2015-08-28 11:53:51,313 [10] INFO  configFile - 操作信息:调用操作:GetPatientInfo,参数信息：
+2015-08-28 11:53:51,319 [10] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：1毫秒：427
+2015-08-28 11:53:51,349 [10] INFO  configFile - (null)
+2015-08-28 11:53:51,349 [10] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:53:51,349 [10] INFO  configFile - 操作信息:调用操作:Test,参数信息：
+2015-08-28 11:53:51,354 [10] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：4
+2015-08-28 11:54:05,474 [12] INFO  configFile - (null)
+2015-08-28 11:54:05,474 [12] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:54:05,477 [12] INFO  NHibernate.Loader.Loader - select patient0_.NAME as col_0_0_, patient0_.SEX as col_1_0_, ward2_.NAME as col_2_0_ from PATIENT patient0_, PATIENT_WARD_RELATION patientwar1_, Ward ward2_ where patientwar1_.PID=patient0_.ID and ward2_.ID=patientwar1_.WID
+2015-08-28 11:54:05,637 [12] INFO  configFile - 操作信息:调用操作:GetPatientInfo,参数信息：
+2015-08-28 11:54:05,637 [12] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：162
+2015-08-28 11:54:05,652 [12] INFO  configFile - (null)
+2015-08-28 11:54:05,652 [12] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:54:05,652 [12] INFO  configFile - 操作信息:调用操作:Test,参数信息：
+2015-08-28 11:54:05,652 [12] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：0
+2015-08-28 11:54:08,426 [12] INFO  configFile - uuid:38843379-21bf-4ae9-aa62-bc6d98ee2219;id=1
+2015-08-28 11:54:08,426 [12] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:54:08,427 [12] INFO  NHibernate.Loader.Loader - select patient0_.NAME as col_0_0_, patient0_.SEX as col_1_0_, ward2_.NAME as col_2_0_ from PATIENT patient0_, PATIENT_WARD_RELATION patientwar1_, Ward ward2_ where patientwar1_.PID=patient0_.ID and ward2_.ID=patientwar1_.WID
+2015-08-28 11:54:08,595 [12] INFO  configFile - 操作信息:调用操作:GetPatientInfo,参数信息：
+2015-08-28 11:54:08,595 [12] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：169
+2015-08-28 11:55:02,470 [19] INFO  configFile - (null)
+2015-08-28 11:55:02,470 [19] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:55:02,472 [19] INFO  NHibernate.Loader.Loader - select patient0_.NAME as col_0_0_, patient0_.SEX as col_1_0_, ward2_.NAME as col_2_0_ from PATIENT patient0_, PATIENT_WARD_RELATION patientwar1_, Ward ward2_ where patientwar1_.PID=patient0_.ID and ward2_.ID=patientwar1_.WID
+2015-08-28 11:55:02,638 [19] INFO  configFile - 操作信息:调用操作:GetPatientInfo,参数信息：
+2015-08-28 11:55:02,638 [19] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：167
+2015-08-28 11:55:02,713 [21] INFO  configFile - (null)
+2015-08-28 11:55:02,713 [21] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:55:02,713 [21] INFO  configFile - 操作信息:调用操作:Test,参数信息：
+2015-08-28 11:55:02,713 [21] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：0
+2015-08-28 11:55:13,912 [12] INFO  configFile - uuid:38843379-21bf-4ae9-aa62-bc6d98ee2219;id=2
+2015-08-28 11:55:13,912 [12] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:55:13,913 [12] INFO  NHibernate.Loader.Loader - select patient0_.NAME as col_0_0_, patient0_.SEX as col_1_0_, ward2_.NAME as col_2_0_ from PATIENT patient0_, PATIENT_WARD_RELATION patientwar1_, Ward ward2_ where patientwar1_.PID=patient0_.ID and ward2_.ID=patientwar1_.WID
+2015-08-28 11:55:14,121 [12] INFO  configFile - 操作信息:调用操作:GetPatientInfo,参数信息：
+2015-08-28 11:55:14,121 [12] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：208
+2015-08-28 11:55:16,262 [21] INFO  configFile - (null)
+2015-08-28 11:55:16,262 [21] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:55:16,264 [21] INFO  NHibernate.Loader.Loader - select patient0_.NAME as col_0_0_, patient0_.SEX as col_1_0_, ward2_.NAME as col_2_0_ from PATIENT patient0_, PATIENT_WARD_RELATION patientwar1_, Ward ward2_ where patientwar1_.PID=patient0_.ID and ward2_.ID=patientwar1_.WID
+2015-08-28 11:55:16,426 [21] INFO  configFile - 操作信息:调用操作:GetPatientInfo,参数信息：
+2015-08-28 11:55:16,426 [21] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：164
+2015-08-28 11:55:16,442 [21] INFO  configFile - (null)
+2015-08-28 11:55:16,442 [21] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 11:55:16,442 [21] INFO  configFile - 操作信息:调用操作:Test,参数信息：
+2015-08-28 11:55:16,442 [21] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：0
+2015-08-28 11:55:40,586 [13] INFO  configFile - urn:uuid:a6dfc5af-a8b9-4e34-a161-d27e306c5226
+2015-08-28 11:55:40,587 [13] INFO  configFile - Mobao.M.PatientContext3服务接收请求，开始处理
+2015-08-28 11:55:40,591 [13] INFO  NHibernate.Loader.Loader - select patient0_.NAME as col_0_0_, patient0_.SEX as col_1_0_, ward2_.NAME as col_2_0_ from PATIENT patient0_, PATIENT_WARD_RELATION patientwar1_, Ward ward2_ where patientwar1_.PID=patient0_.ID and ward2_.ID=patientwar1_.WID
+2015-08-28 11:55:40,763 [13] INFO  configFile - 操作信息:调用操作:GetPatientInfo,参数信息：
+2015-08-28 11:55:40,763 [13] INFO  configFile - Mobao.M.PatientContext3处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：177
+2015-08-28 11:56:18,747 [12] INFO  configFile - urn:uuid:4083d711-6618-47db-82f0-113c87477794--
+2015-08-28 11:56:18,838 [12] INFO  configFile - Mobao.M.PatientContext2服务接收请求，开始处理
+2015-08-28 11:57:29,877 [12] INFO  configFile - Mobao.M.PatientContext2处理完毕.话费时间:小时：0  分钟：1  秒数：11毫秒：37
+2015-08-28 11:58:11,771 [12] INFO  configFile - urn:uuid:3e712e77-f463-4365-999d-3751febda9a3--
+2015-08-28 11:58:11,772 [12] INFO  configFile - Mobao.M.PatientContext2服务接收请求，开始处理
+2015-08-28 12:49:51,777 [12] INFO  configFile - Mobao.M.PatientContext2处理完毕.话费时间:小时：0  分钟：51  秒数：39毫秒：933
+2015-08-28 12:50:06,009 [8] INFO  configFile - urn:uuid:d1a20590-0ffc-40ce-9eee-435ff2512702--
+2015-08-28 12:50:06,009 [8] INFO  configFile - Mobao.M.PatientContext2服务接收请求，开始处理
+2015-08-28 12:50:09,855 [8] INFO  configFile - Mobao.M.PatientContext2处理完毕.话费时间:小时：0  分钟：0  秒数：3毫秒：846
+2015-08-28 12:59:03,291 [36] INFO  configFile - --
+2015-08-28 12:59:03,291 [36] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 12:59:24,886 [36] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：21毫秒：594
+2015-08-28 13:00:00,435 [56] INFO  configFile - --
+2015-08-28 13:00:00,448 [56] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 13:00:00,469 [56] INFO  NHibernate.Cfg.Environment - NHibernate 4.0.3.GA (assembly 4.0.0.4000)
+2015-08-28 13:00:00,469 [56] INFO  NHibernate.Cfg.Environment - hibernate-configuration section not found in application configuration file
+2015-08-28 13:00:00,470 [56] INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2015-08-28 13:00:00,471 [56] INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2015-08-28 13:00:00,498 [56] INFO  NHibernate.Cfg.Configuration - Configured SessionFactory: NHibernate.Test
+2015-08-28 13:00:01,202 [56] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 13:00:01,247 [56] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.PatientWardRelation -> PATIENT_WARD_RELATION
+2015-08-28 13:00:01,292 [56] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 13:00:01,292 [56] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.Patient -> PATIENT
+2015-08-28 13:00:01,296 [56] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 13:00:01,296 [56] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.TestOne -> NURSING_DOC_DATA_REF
+2015-08-28 13:00:01,298 [56] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 13:00:01,298 [56] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.Domain.Vital -> Vital
+2015-08-28 13:00:01,299 [56] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 13:00:01,299 [56] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Mobao.M.Domain.Ward -> Ward
+2015-08-28 13:00:01,302 [56] INFO  NHibernate.Cfg.Configuration - checking mappings queue
+2015-08-28 13:00:01,302 [56] INFO  NHibernate.Cfg.Configuration - processing one-to-many association mappings
+2015-08-28 13:00:01,302 [56] INFO  NHibernate.Cfg.Configuration - processing one-to-one association property references
+2015-08-28 13:00:01,302 [56] INFO  NHibernate.Cfg.Configuration - processing foreign key constraints
+2015-08-28 13:00:01,304 [56] INFO  NHibernate.Cfg.Configuration - processing filters (second pass)
+2015-08-28 13:00:01,317 [56] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 13:00:01,322 [56] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.Oracle10gDialect
+2015-08-28 13:00:01,366 [56] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory - Using dialect defined converter
+2015-08-28 13:00:01,366 [56] INFO  NHibernate.Cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-08-28 13:00:01,367 [56] INFO  NHibernate.Connection.ConnectionProvider - Configuring ConnectionProvider
+2015-08-28 13:00:01,374 [56] INFO  NHibernate.Cfg.SettingsFactory - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2015-08-28 13:00:01,374 [56] INFO  NHibernate.Cfg.SettingsFactory - Optimize cache for minimal puts: False
+2015-08-28 13:00:01,375 [56] INFO  NHibernate.Cfg.SettingsFactory - Connection release mode: auto
+2015-08-28 13:00:01,375 [56] INFO  NHibernate.Cfg.SettingsFactory - Default batch fetch size: 1
+2015-08-28 13:00:01,375 [56] INFO  NHibernate.Cfg.SettingsFactory - Statistics: disabled
+2015-08-28 13:00:01,375 [56] INFO  NHibernate.Cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-08-28 13:00:01,375 [56] INFO  NHibernate.Cfg.SettingsFactory - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2015-08-28 13:00:01,377 [56] INFO  NHibernate.Cfg.SettingsFactory - Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N''}
+2015-08-28 13:00:01,378 [56] INFO  NHibernate.Cfg.SettingsFactory - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2015-08-28 13:00:01,378 [56] INFO  NHibernate.Cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-08-28 13:00:01,379 [56] INFO  NHibernate.Cfg.SettingsFactory - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2015-08-28 13:00:01,379 [56] INFO  NHibernate.Cfg.SettingsFactory - Default entity-mode: Poco
+2015-08-28 13:00:01,379 [56] INFO  NHibernate.Cfg.SettingsFactory - Named query checking : enabled
+2015-08-28 13:00:01,379 [56] INFO  NHibernate.Cfg.SettingsFactory - Ignoring exceptions in BeforeTransactionCompletion : disabled
+2015-08-28 13:00:01,392 [56] INFO  NHibernate.Impl.SessionFactoryImpl - building session factory
+2015-08-28 13:00:01,829 [56] INFO  NHibernate.Impl.SessionFactoryObjectFactory - Factory name:NHibernate.Test
+2015-08-28 13:00:02,187 [56] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Name (Class)]
+2015-08-28 13:00:02,192 [56] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Name (Class)]
+2015-08-28 13:00:02,193 [56] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Sex (Class)]
+2015-08-28 13:00:02,193 [56] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Sex (Class)]
+2015-08-28 13:00:02,193 [56] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Ward (w) -> Name (Class)]
+2015-08-28 13:00:02,193 [56] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Ward (w) -> Name (Class)]
+2015-08-28 13:00:02,213 [56] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.PatientWardRelation (pw) -> PId (Class)]
+2015-08-28 13:00:02,213 [56] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Patient (p) -> Id (Class)]
+2015-08-28 13:00:02,215 [56] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.Ward (w) -> Id (Class)]
+2015-08-28 13:00:02,215 [56] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Mobao.M.Domain.PatientWardRelation (pw) -> WId (Class)]
+2015-08-28 13:00:02,315 [56] INFO  NHibernate.Loader.Loader - select patient0_.NAME as col_0_0_, patient0_.SEX as col_1_0_, ward2_.NAME as col_2_0_ from PATIENT patient0_, PATIENT_WARD_RELATION patientwar1_, Ward ward2_ where patientwar1_.PID=patient0_.ID and ward2_.ID=patientwar1_.WID
+2015-08-28 13:00:02,509 [56] INFO  configFile - 操作信息:调用操作:GetPatientInfo,参数信息：
+2015-08-28 13:00:02,514 [56] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：2毫秒：66
+2015-08-28 13:00:08,311 [56] INFO  configFile - --
+2015-08-28 13:00:08,311 [56] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 13:00:08,312 [56] INFO  configFile - 操作信息:调用操作:Test,参数信息：
+2015-08-28 13:00:08,316 [56] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：5
+2015-08-28 13:00:27,396 [56] INFO  configFile - --
+2015-08-28 13:00:27,396 [56] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 13:00:33,517 [56] INFO  NHibernate.Loader.Loader - select patient0_.NAME as col_0_0_, patient0_.SEX as col_1_0_, ward2_.NAME as col_2_0_ from PATIENT patient0_, PATIENT_WARD_RELATION patientwar1_, Ward ward2_ where patientwar1_.PID=patient0_.ID and ward2_.ID=patientwar1_.WID
+2015-08-28 13:00:33,684 [56] INFO  configFile - 操作信息:调用操作:GetPatientInfo,参数信息：
+2015-08-28 13:00:33,688 [56] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：6毫秒：291
+2015-08-28 13:00:33,809 [56] INFO  configFile - --
+2015-08-28 13:00:33,809 [56] INFO  configFile - Mobao.M.PatientContext服务接收请求，开始处理
+2015-08-28 13:00:33,809 [56] INFO  configFile - 操作信息:调用操作:Test,参数信息：
+2015-08-28 13:00:33,814 [56] INFO  configFile - Mobao.M.PatientContext处理完毕.话费时间:小时：0  分钟：0  秒数：0毫秒：5

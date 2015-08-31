@@ -110,6 +110,7 @@
   <ItemGroup>
     <Compile Include="ClientMessageInspector .cs" />
     <Compile Include="EndpointBehavior .cs" />
+    <Compile Include="InteractiveChannelInitializer.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mobao.M.Winform;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel.Dispatcher;
@@ -11,11 +12,13 @@ namespace Mobao.M.WinForm
     {
         public void AddBindingParameters(System.ServiceModel.Description.ServiceEndpoint endpoint, System.ServiceModel.Channels.BindingParameterCollection bindingParameters)
         {
+
             return;
         }
 
         public void ApplyClientBehavior(System.ServiceModel.Description.ServiceEndpoint endpoint, System.ServiceModel.Dispatcher.ClientRuntime clientRuntime)
         {
+            clientRuntime.InteractiveChannelInitializers.Add(new InteractiveChannelInitializer());
             clientRuntime.MessageInspectors.Add(new ClientMessageInspector());
             foreach (ClientOperation op in clientRuntime.Operations)
                 op.ParameterInspectors.Add(new ParameterInspector());
